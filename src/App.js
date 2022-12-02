@@ -12,16 +12,23 @@ function App(){
   </div>
     )
     } 
-export default App;*/
-
-
+  export default App;
+  */
 import PropsExample from './PropsExample'
-function App(){
-  return(
+import FuncPropExample from './FuncPropExample'
+import StateExample from './StateExample';
+import Events from "./Events"
+ function App() {
+  return (
     <div>
-      <h1>This is about props example</h1>
-      <PropsExample name="teja" age="20"/>
+   <h1>This is about props</h1>
+      <PropsExample name="teja" age="20" Rollno="32"/>
+      <PropsExample name="savithri" age="20" Rollno="12"/>
+      <PropsExample name="vasavi" age="20" Rollno="74"/>
+      <FuncPropExample framework="react" number="1"/>
+  <StateExample/>
+  <Events/>
     </div>
-    )
+  )
 }
-export default App
+export default App;
