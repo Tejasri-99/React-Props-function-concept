@@ -21,7 +21,7 @@ export default class Events extends React.Component {
         <p><input 
               value={this.state.Username}
               name="Username"
-              text="type"
+              type="text"
               placeholder="Enter your name"
               onChange={this.handleUser}/></p>
         <button onClick={this.handleClick}>Submit</button>
